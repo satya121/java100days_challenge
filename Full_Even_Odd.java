@@ -49,7 +49,7 @@ class Full_Even_Odd{
 			int count=obj.is_Even(num);
 			if(count==digits){ System.out.println("Entered number are Even"); }
 		}
-		else{
+		{
 			int count=obj.is_Odd(num);
 			if(count==digits){ System.out.println("Entered digits are Odd"); }
 		}
