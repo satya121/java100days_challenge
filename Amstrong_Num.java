@@ -8,9 +8,10 @@ public class Amstrong_Num
 		int num=sc.nextInt();
 		int temp=num;
 		int sum=0;
+		int d=(int)Math.log10(num)+1;
 		while(temp!=0)
 		{
-			sum=sum+(int)Math.pow((temp%10),3);
+			sum=sum+(int)Math.pow((temp%10),d);
 			temp=temp/10;
 		}
 		if(sum==num)
