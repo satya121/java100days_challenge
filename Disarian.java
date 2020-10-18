@@ -18,7 +18,7 @@ public class Disarian{
 		if(sum==num)
 			System.out.println("Entered number is Disarian number");
 		else
-			System.out.println("Entered number is not Diasarian number");
+			System.out.println("Entered number is not a Diasarian number");
 	}
 }
 		
