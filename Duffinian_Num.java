@@ -32,7 +32,7 @@ public class Duffinian_Num
 		int num1=sc.nextInt();
 		int num2=sum_Divi(num1);
 		if(relative_Prime(num1,num2)==1)
-			System.out.println("Duffinian number");
+			System.out.println("number is Duffinian number");
 		else
 			System.out.println("not a duffinian number");
 	}
